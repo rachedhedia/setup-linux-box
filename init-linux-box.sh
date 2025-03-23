@@ -3,6 +3,7 @@ sudo apt install -y tmux
 sudo apt install -y neovim
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
+echo 'export PATH="$HOME/.fzf/bin:$PATH"' >> ~/.bashrc
 sudo apt install -y zoxide
 sudo apt install -y jq
 
