@@ -3,6 +3,7 @@ cp .bashrc ~/
 sudo apt update
 sudo apt install -y tmux
 sudo apt install -y neovim
+sudo apt install -y btop
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
 sudo apt install -y eza 
