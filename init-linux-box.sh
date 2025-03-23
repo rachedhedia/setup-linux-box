@@ -1,3 +1,5 @@
+
+cp .bashrc ~/
 sudo apt update
 sudo apt install -y tmux
 sudo apt install -y neovim
@@ -6,7 +8,6 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 sudo apt install -y zoxide
 sudo apt install -y jq
 
-cp .bashrc ~/
 mkdir ~/.config
 mkdir ~/.config/nvim
 cp init.lua ~/.config/nvim
