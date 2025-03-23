@@ -1,7 +1,8 @@
 sudo apt update
 sudo apt install -y tmux
 sudo apt install -y neovim
-sudo apt install -y fzf
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install
 sudo apt install -y zoxide
 sudo apt install -y jq
 
@@ -16,3 +17,4 @@ curl -Lo lazygit.tar.gz "https://github.com/jesseduffield/lazygit/releases/downl
 tar xf lazygit.tar.gz lazygit
 sudo install lazygit -D -t /usr/local/bin/
 
+source ~/.bashrc
