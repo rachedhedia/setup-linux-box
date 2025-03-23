@@ -1,7 +1,6 @@
 # Instructions
 Clone the repo under your home directory
 - cd setup-linux-box
-- chmod +x setup-linux-box.sh
 - ./setup-linux-box.sh
 
 # What it does
