@@ -10,6 +10,8 @@ sudo apt install -y eza
 sudo apt install -y zoxide
 sudo apt install -y jq
 
+git clone https://github.com/folke/lazy.nvim.git --branch=stable ~/.local/share/nvim/lazy/lazy.nvim
+
 mkdir ~/.config
 mkdir ~/.config/nvim
 cp init.lua ~/.config/nvim
