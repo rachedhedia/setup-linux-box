@@ -1,0 +1,15 @@
+{
+                "backgroundImage": "desktopWallpaper",
+                "backgroundImageOpacity": 0.06,
+                "colorScheme": "Ottosson",
+                "commandline": "ssh -i c:\\Users\\rhedi\\.ssh\\23-03-2025-v0.pem ubuntu@18.130.161.62",
+                "cursorShape": "filledBox",
+                "font": 
+                {
+                    "face": "FiraCode Nerd Font"
+                },
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6102}",
+                "hidden": false,
+                "name": "AWS 8CPU"
+            },
+	    }
