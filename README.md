@@ -11,3 +11,8 @@ Setup the conf files for
 - tmux
 - bashrc
 
+# Usage
+- nvim to run neovim
+- lazygit to run lazygit
+- tmux to run tmux
+
