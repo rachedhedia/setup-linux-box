@@ -1,3 +1,5 @@
+set -o vi
+
 export FZF_DEFAULT_OPTS="--style full \
     --border --padding 1,2 \
     --border-label ' Demo ' --input-label ' Input ' --header-label ' File Type ' \
@@ -19,3 +21,6 @@ export FZF_DEFAULT_OPTS="--style full \
     --color 'header-border:#6699cc,header-label:#99ccff'"
 
 eval "$(zoxide init bash)"
+
+alias l="ls -lrt"
+alias gl="ls -lrt | grep"
