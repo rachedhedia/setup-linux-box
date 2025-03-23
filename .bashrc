@@ -18,3 +18,4 @@ export FZF_DEFAULT_OPTS="--style full \
     --color 'input-border:#996666,input-label:#ffcccc' \
     --color 'header-border:#6699cc,header-label:#99ccff'"
 
+eval "$(zoxide init bash)"
