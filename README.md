@@ -13,5 +13,11 @@ Setup the conf files for
 # Usage
 - nvim to run neovim
 - lazygit to run lazygit
-- tmux to run tmux
+- t to start a new tmux session
+- ta to attach to previous session
+- z to switch folder 
+- zi to switch folder with a browser
+- l to list folders
+- gl to list folder with grep
+
 
