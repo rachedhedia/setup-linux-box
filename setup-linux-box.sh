@@ -5,6 +5,7 @@ sudo apt install -y tmux
 sudo apt install -y neovim
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
+sudo apt install -y eza 
 sudo apt install -y zoxide
 sudo apt install -y jq
 
