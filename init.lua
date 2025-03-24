@@ -13,9 +13,9 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
-  {"ellisonleao/gruvbox.nvim", name = "gruvbox" }
+  { "bluz71/vim-moonfly-colors", name = "moonfly", lazy = false, priority = 1000}
 })
 
 -- Set the color scheme
-vim.cmd.colorscheme "gruvbox"
+vim.cmd.colorscheme "moonfly"
 
