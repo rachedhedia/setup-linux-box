@@ -13,10 +13,9 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
-  -- Example color scheme (tokyonight)
-  'rose-pine/neovim'
+  {"ellisonleao/gruvbox.nvim", name = "gruvbox" }
 })
 
 -- Set the color scheme
-vim.cmd [[colorscheme rose-pine]]
+vim.cmd.colorscheme "gruvbox"
 
