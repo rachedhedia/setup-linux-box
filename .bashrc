@@ -20,6 +20,16 @@ export FZF_DEFAULT_OPTS="--style full \
     --color 'input-border:#996666,input-label:#ffcccc' \
     --color 'header-border:#6699cc,header-label:#99ccff'"
 
+export FZF_CTRL_R_OPTS=" # add option to add command from history to pet via alt + s
+  --reverse
+  --cycle
+  --info=right
+  --color header:italic
+  --header 'alt+s (pet new)'
+  --preview 'echo {}' --preview-window down:3:hidden:wrap
+  --bind '?:toggle-preview'
+  --bind 'alt-s:execute(pet new --tag {2..})+abort'"
+
 eval "$(zoxide init bash)"
 
 alias l="ls -lrt"
@@ -30,3 +40,5 @@ alias tk="tmux kill-session"
 alias cl="clear"
 alias l="eza --color=always --long --git --no-filesize --icons=always --no-user"
 alias gl="eza --color=always --long --git --no-filesize --icons=always --no-user | grep"
+
+bind -x '"\C-@": pet-select' # add ctrl + spacebar to trigger pet
