@@ -27,3 +27,20 @@ sudo install pet -D -t /usr/local/bin/
 
 echo 'export PATH="$HOME/.fzf/bin:$PATH"' >> ~/.bashrc
 source ~/.bashrc
+
+# install TPM
+TPM_DIR="$HOME/.tmux/plugins/tpm"
+git clone https://github.com/tmux-plugins/tpm $TPM_DIR
+
+echo "TPM installed successfully!"
+echo "Now opening tmux session and installing plugins..."
+
+tmux new-session -d -s tpm_install_session
+
+# I use C-s as my prefix for tmux. if you don't have that. change this line
+tmux send-keys -t tpm_install_session C-s "I" C-m
+
+tmux attach -t tpm_install_session
+
+exit 0
+
